@@ -31,7 +31,7 @@ EMNIST is downloaded from NIST; if the download is refused, fetch `gzip.zip` in 
 
 ## Results
 
-> **v0.2 (2026-10-22)** - The v0.1 results and weights covered only the 10 Fashion-MNIST classes: a class-name case bug (`"F"` was looked up as `"f"`) dropped the 26 letter classes from training and evaluation (4,848 of the 6,699 test objects). v0.2 fixes `common/datasets/voc.py` and reports a re-training on all 36 classes. The v0.1 Release is kept for reference.
+> **v1.1 (2026-10-22)** - The v1.0 results and weights covered only the 10 Fashion-MNIST classes: a class-name case bug (`"F"` was looked up as `"f"`) dropped the 26 letter classes from training and evaluation (4,848 of the 6,699 test objects). v1.1 fixes `common/datasets/voc.py` and reports a re-training on all 36 classes. The v1.0 Release is kept for reference.
 
 Test set: FashionLetters36 test (1,024 images, 36 classes), IoU 0.5, after 30 epochs (2.3 h on an RTX 4070 Laptop GPU).
 
